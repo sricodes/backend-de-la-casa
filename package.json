@@ -1,0 +1,23 @@
+{
+  "name": "el-hombre",
+  "version": "1.0.0",
+  "description": "Backend of the house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sricodes/backend-de-la-casa.git"
+  },
+  "author": "sriram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sricodes/backend-de-la-casa/issues"
+  },
+  "homepage": "https://github.com/sricodes/backend-de-la-casa#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
