@@ -1,6 +1,7 @@
 console.log(`Application Started`)
+const app = require('./src/app')
 
-const PORT = process.env.PORT || 3000
+/* const PORT = process.env.PORT || 3000
 const http = require('http')
 const sever = http.createServer((req,res) => {
     res.setHeader('Content-Type', 'text/html')
@@ -10,4 +11,4 @@ const sever = http.createServer((req,res) => {
 
 sever.listen(PORT,()=>{
     console.log(`Server Started ${PORT}`)
-})
+}) */
